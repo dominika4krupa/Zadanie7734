@@ -1,0 +1,42 @@
+@media all and (max-width: 992px) {
+
+    .left {
+        flex-basis: 100%;
+        order: 2;
+    }
+    #sec {
+        flex-basis: 75%;
+    }
+
+    .right {
+        flex-basis: 25%;
+    }
+
+    footer {
+        order: 3;
+    }
+}
+
+
+
+@media all and (max-width: 768px) {
+
+    #sec,
+    .left,
+    .right {
+        flex-basis: 100%;
+    }
+
+    #sec {
+        order: 0;
+    }
+
+    .left {
+        order: 1;
+    }
+
+    .right {
+        order: 2;
+    }
+
+}
